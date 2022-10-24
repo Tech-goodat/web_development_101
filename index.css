@@ -1,0 +1,23 @@
+a:link{
+    color:green;
+    border:none;
+    border-radius:30px;
+    padding:10px;
+    background-color: blue;
+    text-decoration: none;
+    text-align:center;
+    display:inline-block;
+    /*removes the underlining*/
+}
+
+a:visited{
+    color:pink;
+    background-color: transparent;
+    text-decoration:none;
+
+}
+a:hover{
+    color:red;
+    background-color: transparent;
+    text-decoration: underline;
+}
