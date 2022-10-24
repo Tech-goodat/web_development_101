@@ -21,3 +21,9 @@ a:hover{
     background-color: transparent;
     text-decoration: underline;
 }
+body{
+    background-image:url('photo.pg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+}
