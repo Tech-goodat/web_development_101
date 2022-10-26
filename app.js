@@ -1,0 +1,1 @@
+document.getElementById(first).innerHTML = "Vwalla!!.I am learning javaScript!";

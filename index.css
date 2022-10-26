@@ -41,3 +41,35 @@ tr :nth-child(even){
 tr:hover{
     background-color: #D6EEEE;
 }
+.right{
+    background-color:red;
+    height:40px;
+    padding:20px;
+
+}
+.center{
+    background-color:grey;
+    height:40px;
+    padding:20px;
+
+}
+.left{
+    background-color:orange;
+    height:40px;
+    padding:20px;
+
+}
+.left, .right {
+    float:left;
+    width: 20%;
+}
+.main{
+    float:left;
+    width:60%;
+}
+@media screen and (max-width: 800px){
+    .left, .center, .right{
+        width: 100%;
+    }
+}
+
